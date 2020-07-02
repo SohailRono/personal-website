@@ -50,38 +50,43 @@ h1{
 }
 .container{
     padding-left:5%;
+    padding-bottom:5%;
     display: inline-block;
 }
 
-.container #header{
-    background-image: url("../img/header-bg.png");
+#header{
+    background-image: url('../img/header-bg.png');
 }
 
-.container #biography{
+#biography{
     background-image: url("../img/biography-bg.png");
 }
 
-.container #work{
+#work{
     background-image: url("../img/latest-work-bg.png");
 }
-.container #client{
+
+#footer{
+    height: min-content;
+}
+
+.footer-container{
+    
+    padding-left:33%;
+    
+    display: inline-block;
+    border-radius: 5px;
     background-image: url("../img/footer-bg.png");
 }
 
-.container #footer{
-    background-image: url("../img/footer-bg.png");
+.footer-btn {
+    color: white;
+    background-color: #EC4C7A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
-.experiences {
-    padding: 30px;
-    margin: 30px;
-    background-color: rgb(238, 251, 255);
-    border-radius: 20px;
-}
-.experience-item {
-    padding: 10px;
-    border-left: 1px solid rgba(137, 130, 247, .2)
-}
 .text-center{
     text-align: center;
 }
